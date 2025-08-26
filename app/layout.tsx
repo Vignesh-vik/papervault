@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Component from "../logo-particles";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +17,13 @@ export const metadata: Metadata = {
   title: "PaperVault - Previous Year Question Papers",
   description:
     "Access and search CATs and semester question papers by subject code. PaperVault helps students quickly find past exams and prepare better.",
-  keywords: ["question papers", "CAT exams", "semester papers", "PaperVault", "subject code"],
+  keywords: [
+    "question papers",
+    "CAT exams",
+    "semester papers",
+    "PaperVault",
+    "subject code",
+  ],
   openGraph: {
     title: "PaperVault",
     description:
